@@ -9,8 +9,8 @@ CHANGES = open(os.path.join(HERE, "CHANGES.rst")).read()
 
 REQUIREMENTS = [
     "dynamo3>=1.0.0",
-    "pyparsing==2.1.4",
-    "python-dateutil",
+    "pyparsing==3.1.1",
+    "python-dateutil>=2.8.2",
     "botocore>=1.17.55",
     "rich>=6.1.1",
     "typing_extensions",
